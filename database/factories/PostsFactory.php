@@ -21,6 +21,7 @@ class PostsFactory extends Factory
             'except' => $this->faker->sentence(),
             'content' => $this->faker->text(),
             'image' => $this->faker->imageUrl(),
+            
         ];
     }
 }
